@@ -114,7 +114,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/time-services" name="SlimRoms/vendor_qcom_opensource_time-services" />
 
-  <!-- Slim Additions -->
+  <!-- Reaper Additions -->
   <project path="external/exfat" name="SlimRoms/android_external_exfat" />
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" />
   <project path="external/fuse" name="SlimRoms/android_external_fuse" />
@@ -124,7 +124,7 @@
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" />
   <project path="packages/apps/SlimWallpapers" name="SlimRoms/packages_apps_SlimWallpapers" />
   <project path="platform_manifest" name="SlimRoms/platform_manifest" />
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" />
+  <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" />
   <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" />
 
