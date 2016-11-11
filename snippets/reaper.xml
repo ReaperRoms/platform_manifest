@@ -17,7 +17,7 @@
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" />
+  <project path="frameworks/base" name="ReaperRoms/frameworks_base" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" />
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
