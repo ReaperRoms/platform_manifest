@@ -1,17 +1,12 @@
-Welcome to SlimRoms
+Welcome to ReaperRoms
 ===================
 
 
-Getting Started
----------------
-
-To get started with Slim7, you'll need to get familiar with
-[Git and Repo](https://source.android.com/source/using-repo.html).
-
-To initialize your local repository using the Slim7 trees, use this command:
+To initialize your local repository using the tree, use this command:
 
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b ng7.1
+	
+repo init -u git://github.com/ReaperRoms/platform_manifest.git -b 7.1
 
 
 
@@ -20,35 +15,3 @@ Then sync up with this command:
 	repo sync
 
 
-
-Submitting Patches
-------------------
-
-We're open source, and patches are always welcome!
-You can send patches by using these commands:
-
-    cd <workspace>
-    repo start <branch> SlimRoms/<project>
-    cd <project>
-    git add -A
-    git commit -a
-    cd <workspace>
-    repo upload SlimRoms/<project>
-
-Commit your patches in a single commit.
-
-Squash multiple commit using this command:
-
-	git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of
-
-	git commit -a
-
-use
-
-	git commit --amend
-
-Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [SlimRoms Code Review](http://review.slimroms.org)
