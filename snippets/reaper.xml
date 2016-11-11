@@ -2,8 +2,6 @@
 <manifest>
 
   <!-- Aosp Forks -->
-  <project path="art" name="ReaperRoms/android_art" />
-  <project path="bionic" name="ReaperRoms/android_bionic" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" />
   <project path="external/apache-http" name="SlimRoms/android_external_apache-http" />
   <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" />
@@ -16,9 +14,6 @@
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" />
-  <project path="frameworks/av" name="ReaperRoms/frameworks_av" />
-  <project path="frameworks/base" name="ReaperRoms/frameworks_base" />
-  <project path="frameworks/native" name="ReaperRoms/frameworks_native" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" />
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" />
@@ -49,8 +44,7 @@
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" />
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
-  <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />
-  <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" />
+  <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />  
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
@@ -114,17 +108,15 @@
   <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/time-services" name="SlimRoms/vendor_qcom_opensource_time-services" />
 
-  <!-- Reaper Additions -->
+  <!-- Slim Additions -->
   <project path="external/exfat" name="SlimRoms/android_external_exfat" />
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" />
   <project path="external/fuse" name="SlimRoms/android_external_fuse" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" />
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" />
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" />
-  <project path="packages/apps/ReaperWallpapers" name="ReaperRoms/packages_apps_ReaperWallpapers" />
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" />
-  <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" />
+  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" /> 
+  <project path="platform_manifest" name="SlimRoms/platform_manifest" />  
   <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" />
 
