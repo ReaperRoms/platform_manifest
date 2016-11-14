@@ -464,8 +464,9 @@
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="7.1" />
   <project path="packages/apps/ReaperWallpapers" name="ReaperRoms/packages_apps_ReaperWallpapers" remote="github" revision="7.1" />
   <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="7.1" />
-  <project path="device/qcom/common" name="ReaperRoms/device_qcom_common" />
-  <project path="device/qcom/sepolicy" name="ReaperRoms/device_qcom_sepolicy" />
+  <project path="device/qcom/common" name="ReaperRoms/device_qcom_common" remote="github" revision="7.1" />
+  <project path="device/qcom/sepolicy" name="ReaperRoms/device_qcom_sepolicy" remote="github" revision="7.1" />
+  <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="7.1" />
 
  <include name="snippets/reaper.xml" />
 
