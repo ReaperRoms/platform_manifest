@@ -74,8 +74,6 @@
   <project path="external/connectivity" name="SlimRoms/android_external_connectivity" />
   <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" />
   <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" />
-  <project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
-  <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" />
   <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8937" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8937" />
   <project path="hardware/qcom/audio-caf/msm8952" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8952" />
