@@ -16,7 +16,6 @@
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" />
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" />
   <project path="frameworks/support" name="SlimRoms/frameworks_support" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />

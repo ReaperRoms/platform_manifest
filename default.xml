@@ -461,6 +461,7 @@
   <project path="frameworks/av" name="ReaperRoms/frameworks_av" remote="github" revision="7.1" />
   <project path="frameworks/base" name="ReaperRoms/frameworks_base" remote="github" revision="7.1" />
   <project path="frameworks/native" name="ReaperRoms/frameworks_native" remote="github" revision="7.1" />
+  <project path="frameworks/opt/telephony" name="ReaperRoms/frameworks_opt_telephony" remote="github" revision="7.1" />
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="7.1" />
   <project path="packages/apps/ReaperWallpapers" name="ReaperRoms/packages_apps_ReaperWallpapers" remote="github" revision="7.1" />
   <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="7.1" />
