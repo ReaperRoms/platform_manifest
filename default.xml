@@ -466,6 +466,7 @@
   <project path="hardware/qcom/media" name="ReaperRoms/hardware_qcom_media" remote="github" revision="7.1" />
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="7.1" />
   <project path="packages/apps/ReaperWallpapers" name="ReaperRoms/packages_apps_ReaperWallpapers" remote="github" revision="7.1" />
+  <project path="system/sepolicy" name="ReaperRoms/system_sepolicy" remote="github" revision="7.1" />  
   <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="7.1" />
   <project path="device/qcom/common" name="ReaperRoms/device_qcom_common" remote="github" revision="7.1" />
   <project path="device/qcom/sepolicy" name="ReaperRoms/device_qcom_sepolicy" remote="github" revision="7.1" />
@@ -532,7 +533,6 @@
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="ng7.1" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="ng7.1" />
   <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="ng7.1" />
-  <project path="system/sepolicy" name="SlimRoms/android_system_sepolicy" remote="github" revision="ng7.1" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="ng7.1" />
 
   <!-- CodeAurora Additions -->
