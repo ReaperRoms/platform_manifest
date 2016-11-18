@@ -463,6 +463,7 @@
   <project path="frameworks/base" name="ReaperRoms/frameworks_base" remote="github" revision="7.1" />
   <project path="frameworks/native" name="ReaperRoms/frameworks_native" remote="github" revision="7.1" />
   <project path="frameworks/opt/telephony" name="ReaperRoms/frameworks_opt_telephony" remote="github" revision="7.1" />
+  <project path="frameworks/opt/reaper" name="ReaperRoms/frameworks_opt_slim" remote="github" revision="7.1" />
   <project path="hardware/qcom/media" name="ReaperRoms/hardware_qcom_media" remote="github" revision="7.1" />
   <project path="packages/apps/Bluetooth" name="ReaperRoms/packages_apps_Bluetooth" remote="github" revision="7.1" />  
   <project path="packages/apps/CellBroadcastReceiver" name="ReaperRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="7.1" />
@@ -582,7 +583,6 @@
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" remote="github" revision="ng7.1" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="ng7.1" />
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="ng7.1" />
-  <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" remote="github" revision="ng7.1" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.1" />
 
 
