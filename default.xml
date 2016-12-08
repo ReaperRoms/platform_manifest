@@ -24,7 +24,7 @@
            sync-j="4" />
 
 
-  <project path="build" name="ReaperRoms/android_build" groups="pdk,tradefed" remote="github" revision="7.1" >
+  <project path="build" name="ReaperRoms/build" groups="pdk,tradefed" remote="github" revision="7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
