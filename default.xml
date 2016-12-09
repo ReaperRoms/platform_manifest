@@ -24,11 +24,11 @@
            sync-j="4" />
 
   <!-- Reaper Repos -->
-  <project path="build" name="ReaperRoms/build" groups="pdk,tradefed" remote="github" revision="7.1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="art" name="ReaperRoms/android_art" remote="github" revision="7.1" />
   <project path="bionic" name="ReaperRoms/android_bionic" remote="github" revision="7.1" />
+  <project path="build" name="ReaperRoms/build" groups="pdk,tradefed" remote="github" revision="7.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>  
   <project path="bootable/recovery" name="ReaperRoms/bootable_recovery" remote="github" revision="7.1" />
   <project path="build/kati" name="ReaperRoms/build_kati" groups="pdk,tradefed" remote="github" revision="7.1" />
   <project path="device/qcom/common" name="ReaperRoms/device_qcom_common" remote="github" revision="7.1" />
@@ -82,6 +82,11 @@
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="7.1" />
   <project path="packages/apps/Stk" name="ReaperRoms/packages_apps_Stk" remote="github" revision="7.1" />  
   <project path="packages/apps/ReaperWallpapers" name="ReaperRoms/packages_apps_ReaperWallpapers" remote="github" revision="7.1" />
+  <project path="packages/providers/ContactsProvider" name="ReaperRoms/packages_providers_ContactsProvider" remote="github" revision="7.1" />  
+  <project path="packages/providers/MediaProvider" name="ReaperRoms/packages_providers_MediaProvider" remote="github" revision="7.1" />
+  <project path="packages/providers/TelephonyProvider" name="ReaperRoms/packages_providers_TelephonyProvider" remote="github" revision="7.1" />    
+  <project path="packages/services/Telecomm" name="ReaperRoms/packages_services_Telecomm" remote="github" revision="7.1" />
+  <project path="packages/services/Telephony" name="ReaperRoms/packages_services_Telephony" remote="github" revision="7.1" />
   <project path="system/bt" name="ReaperRoms/system_bt" remote="github" revision="7.1" />
   <project path="system/core" name="ReaperRoms/system_core" remote="github" revision="7.1" />
   <project path="system/extras" name="ReaperRoms/system_extras" remote="github" revision="7.1" />
@@ -104,13 +109,8 @@
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="ng7.1" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="ng7.1" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="ng7.1" />
-  <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="github" revision="ng7.1" />
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="ng7.1" />
-  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="ng7.1" />
-  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="ng7.1" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="ng7.1" />
-  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="ng7.1" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="ng7.1" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="ng7.1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="ng7.1" />
 
@@ -584,6 +584,5 @@
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="ng7.1" />
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="ng7.1" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.1" />
-
 
 </manifest>
