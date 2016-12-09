@@ -29,12 +29,50 @@
   </project>
   <project path="art" name="ReaperRoms/android_art" remote="github" revision="7.1" />
   <project path="bionic" name="ReaperRoms/android_bionic" remote="github" revision="7.1" />
+  <project path="bootable/recovery" name="ReaperRoms/bootable_recovery" remote="github" revision="7.1" />
+  <project path="build/kati" name="ReaperRoms/build_kati" groups="pdk,tradefed" remote="github" revision="7.1" />
+  <project path="device/qcom/common" name="ReaperRoms/device_qcom_common" remote="github" revision="7.1" />
+  <project path="device/qcom/sepolicy" name="ReaperRoms/device_qcom_sepolicy" remote="github" revision="7.1" />  
+  <project path="external/apache-http" name="ReaperRoms/external_apache-http" remote="github" revision="7.1" />
+  <project path="external/connectivity" name="ReaperRoms/external_connectivity" remote="github" revision="7.1" />
+  <project path="external/e2fsprogs" name="ReaperRoms/external_e2fsprogs" remote="github" revision="7.1" />
+  <project path="external/exfat" name="ReaperRoms/external_exfat" remote="github" revision="7.1" />
+  <project path="external/ffmpeg" name="ReaperRoms/external_ffmpeg" remote="github" revision="7.1" />  
+  <project path="external/f2fs-tools" name="ReaperRoms/external_f2fs-tools" remote="github" revision="7.1" />
+  <project path="external/flac" name="ReaperRoms/external_flac" groups="pdk" remote="github" revision="7.1" />
+  <project path="external/fuse" name="ReaperRoms/external_fuse" remote="github" revision="7.1" />
+  <project path="external/ipsec-tools" name="ReaperRoms/external_ipsec-tools" remote="github" revision="7.1" />
+  <project path="external/libnfc-nci" name="ReaperRoms/external_libnfc-nci" remote="github" revision="7.1" />
+  <project path="external/libnfc-nxp" name="ReaperRoms/external_libnfc-nxp" remote="github" revision="7.1" />
+  <project path="external/ntfs-3g" name="ReaperRoms/external_ntfs-3g" remote="github" revision="7.1" />  
+  <project path="external/okhttp" name="ReaperRoms/external_okhttp" remote="github" revision="7.1" />
+  <project path="external/skia" name="ReaperRoms/external_skia" remote="github" revision="7.1" />
+  <project path="external/stagefright-plugins" name="ReaperRoms/external_stagefright-plugins" remote="github" revision="7.1" />  
+  <project path="external/tinyalsa" name="ReaperRoms/external_tinyalsa" remote="github" revision="7.1" />
+  <project path="external/tinycompress" name="ReaperRoms/external_tinycompress" remote="github" revision="7.1" />
+  <project path="external/wpa_supplicant_8" name="ReaperRoms/external_wpa_supplicant_8" remote="github" revision="7.1" />                                  
   <project path="frameworks/av" name="ReaperRoms/frameworks_av" remote="github" revision="7.1" />
   <project path="frameworks/base" name="ReaperRoms/frameworks_base" remote="github" revision="7.1" />
   <project path="frameworks/native" name="ReaperRoms/frameworks_native" remote="github" revision="7.1" />
+  <project path="frameworks/opt/net/ims" name="ReaperRoms/frameworks_opt_net_ims" remote="github" revision="7.1" />
+  <project path="frameworks/opt/net/wifi" name="ReaperRoms/frameworks_opt_net_wifi" remote="github" revision="7.1" />
+  <project path="frameworks/opt/reaper" name="ReaperRoms/frameworks_opt_slim" remote="github" revision="7.1" />      
   <project path="frameworks/opt/telephony" name="ReaperRoms/frameworks_opt_telephony" remote="github" revision="7.1" />
-  <project path="frameworks/opt/reaper" name="ReaperRoms/frameworks_opt_slim" remote="github" revision="7.1" />
+  <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="7.1" />
+  <project path="hardware/broadcom/libbt" name="ReaperRoms/hardware_broadcom_libbt" remote="github" revision="7.1" />
+  <project path="hardware/broadcom/wlan" name="ReaperRoms/hardware_broadcom_wlan" remote="github" revision="7.1" />
+  <project path="hardware/libhardware" name="ReaperRoms/hardware_libhardware" remote="github" revision="7.1" />
+  <project path="hardware/libhardware_legacy" name="ReaperRoms/hardware_libhardware_legacy" remote="github" revision="7.1" />
+  <project path="hardware/qcom/audio/default" name="ReaperRoms/hardware_qcom_audio" remote="github" revision="7.1" />
+  <project path="hardware/qcom/bt" name="ReaperRoms/hardware_qcom_bt" remote="github" revision="7.1" />
+  <project path="hardware/qcom/camera" name="ReaperRoms/hardware_qcom_camera" remote="github" revision="7.1" />
+  <project path="hardware/qcom/display" name="ReaperRoms/hardware_qcom_display" remote="github" revision="7.1" />
+  <project path="hardware/qcom/gps" name="ReaperRoms/hardware_qcom_gps" remote="github" revision="7.1" />
+  <project path="hardware/qcom/keymaster" name="ReaperRoms/hardware_qcom_keymaster" remote="github" revision="7.1" />                      
   <project path="hardware/qcom/media" name="ReaperRoms/hardware_qcom_media" remote="github" revision="7.1" />
+  <project path="hardware/qcom/power" name="ReaperRoms/hardware_qcom_power" remote="github" revision="7.1" />
+  <project path="hardware/qcom/wlan" name="ReaperRoms/hardware_qcom_wlan" remote="github" revision="7.1" />
+  <project path="hardware/ril" name="ReaperRoms/hardware_ril" remote="github" revision="7.1" />      
   <project path="packages/apps/Bluetooth" name="ReaperRoms/packages_apps_Bluetooth" remote="github" revision="7.1" />  
   <project path="packages/apps/CellBroadcastReceiver" name="ReaperRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="7.1" />
   <project path="packages/apps/Contacts" name="ReaperRoms/packages_apps_Contacts" remote="github" revision="7.1" />
@@ -43,41 +81,19 @@
   <project path="packages/apps/PhoneCommon" name="ReaperRoms/packages_apps_PhoneCommon" remote="github" revision="7.1" />    
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="7.1" />
   <project path="packages/apps/ReaperWallpapers" name="ReaperRoms/packages_apps_ReaperWallpapers" remote="github" revision="7.1" />
-  <project path="system/sepolicy" name="ReaperRoms/system_sepolicy" remote="github" revision="7.1" />  
+  <project path="system/bt" name="ReaperRoms/system_bt" remote="github" revision="7.1" />
+  <project path="system/core" name="ReaperRoms/system_core" remote="github" revision="7.1" />
+  <project path="system/extras" name="ReaperRoms/system_extras" remote="github" revision="7.1" />
+  <project path="system/keymaster" name="ReaperRoms/system_keymaster" remote="github" revision="7.1" />
+  <project path="system/media" name="ReaperRoms/system_media" remote="github" revision="7.1" />
+  <project path="system/netd" name="ReaperRoms/system_netd" remote="github" revision="7.1" />
+  <project path="system/security" name="ReaperRoms/system_security" remote="github" revision="7.1" />             
+  <project path="system/sepolicy" name="ReaperRoms/system_sepolicy" remote="github" revision="7.1" />
+  <project path="system/vold" name="ReaperRoms/system_vold" remote="github" revision="7.1" />    
   <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="7.1" />
-  <project path="device/qcom/common" name="ReaperRoms/device_qcom_common" remote="github" revision="7.1" />
-  <project path="device/qcom/sepolicy" name="ReaperRoms/device_qcom_sepolicy" remote="github" revision="7.1" />
   <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="7.1" />
 
   <!-- Slim Repos -->
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="ng7.1" />
-  <project path="external/apache-http" name="SlimRoms/android_external_apache-http" remote="github" revision="ng7.1" />
-  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="ng7.1" />
-  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="ng7.1" />
-  <project path="external/ipsec-tools" name="SlimRoms/android_external_ipsec-tools" remote="github" revision="ng7.1" />
-  <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="ng7.1" />
-  <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="ng7.1" />
-  <project path="external/okhttp" name="SlimRoms/android_external_okhttp" remote="github" revision="ng7.1" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="ng7.1" />
-  <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="github" revision="ng7.1" />
-  <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="ng7.1" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="ng7.1" />
-  <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" remote="github" revision="ng7.1" />
-  <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" remote="github" revision="ng7.1" />
-  <project path="frameworks/support" name="SlimRoms/frameworks_support" remote="github" revision="ng7.1" />
-  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="ng7.1" />
-  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="ng7.1" />
-  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="ng7.1" />
-  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="ng7.1" />
-  <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" remote="github" revision="ng7.1" />
-  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="ng7.1" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="ng7.1" />
-  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.1" />
-  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="ng7.1" />
-  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="ng7.1" />
-  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="ng7.1" />
-  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="ng7.1" />
-  <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="ng7.1" />
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="ng7.1" />
   <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" remote="github" revision="ng7.1" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="ng7.1" />
@@ -97,20 +113,11 @@
   <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="ng7.1" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="ng7.1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="ng7.1" />
-  <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="ng7.1" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="ng7.1" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="ng7.1" />
-  <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="ng7.1" />
-  <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="ng7.1" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="ng7.1" />
-  <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="ng7.1" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="ng7.1" />
 
   <!-- CodeAurora Additions -->
   <project path="external/ant-wireless/ant_native" name="SlimRoms/android_external_ant-wireless_ant_native" remote="github" revision="ng7.1" />
   <project path="external/ant-wireless/ant_service" name="SlimRoms/android_external_ant-wireless_ant_service" remote="github" revision="ng7.1" />
   <project path="external/ant-wireless/antradio-library" name="SlimRoms/android_external_ant-wireless_antradio-library" remote="github" revision="ng7.1" />
-  <project path="external/connectivity" name="SlimRoms/android_external_connectivity" remote="github" revision="ng7.1" />
   <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" remote="github" revision="ng7.1" />
   <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" remote="github" revision="ng7.1" />
   <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" remote="github" revision="ng7.1-caf-8916" />
@@ -147,7 +154,6 @@
   
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -239,7 +245,6 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fec" name="platform/external/fec" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -576,11 +581,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <!-- Slim Additions -->
-  <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="ng7.1" />
-  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="ng7.1" />
-  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="ng7.1" />
-  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="ng7.1" />
-  <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" remote="github" revision="ng7.1" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="ng7.1" />
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="ng7.1" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.1" />
