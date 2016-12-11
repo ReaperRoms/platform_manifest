@@ -55,8 +55,7 @@
   <project path="frameworks/base" name="ReaperRoms/frameworks_base" remote="github" revision="7.1" />
   <project path="frameworks/native" name="ReaperRoms/frameworks_native" remote="github" revision="7.1" />
   <project path="frameworks/opt/net/ims" name="ReaperRoms/frameworks_opt_net_ims" remote="github" revision="7.1" />
-  <project path="frameworks/opt/net/wifi" name="ReaperRoms/frameworks_opt_net_wifi" remote="github" revision="7.1" />
-  <project path="frameworks/opt/reaper" name="ReaperRoms/frameworks_opt_slim" remote="github" revision="7.1" />      
+  <project path="frameworks/opt/net/wifi" name="ReaperRoms/frameworks_opt_net_wifi" remote="github" revision="7.1" />    
   <project path="frameworks/opt/telephony" name="ReaperRoms/frameworks_opt_telephony" remote="github" revision="7.1" />
   <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="7.1" />
   <project path="hardware/broadcom/libbt" name="ReaperRoms/hardware_broadcom_libbt" remote="github" revision="7.1" />
