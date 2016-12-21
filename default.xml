@@ -72,7 +72,8 @@
   <project path="hardware/qcom/power" name="ReaperRoms/hardware_qcom_power" remote="github" revision="7.1" />
   <project path="hardware/qcom/wlan" name="ReaperRoms/hardware_qcom_wlan" remote="github" revision="7.1" />
   <project path="hardware/ril" name="ReaperRoms/hardware_ril" remote="github" revision="7.1" />      
-  <project path="packages/apps/Bluetooth" name="ReaperRoms/packages_apps_Bluetooth" remote="github" revision="7.1" />  
+  <project path="packages/apps/Bluetooth" name="ReaperRoms/packages_apps_Bluetooth" remote="github" revision="7.1" />
+  <project path="packages/apps/Camera2" name="ReaperRoms/packages_apps_Camera2" remote="github" revision="7.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="ReaperRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="7.1" />
   <project path="packages/apps/Contacts" name="ReaperRoms/packages_apps_Contacts" remote="github" revision="7.1" />
   <project path="packages/apps/ContactsCommon" name="ReaperRoms/packages_apps_ContactsCommon" remote="github" revision="7.1" />
@@ -101,7 +102,6 @@
   <!-- Slim Repos -->
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="ng7.1" />
   <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" remote="github" revision="ng7.1" />
-  <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="ng7.1" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="ng7.1" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="ng7.1" />
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="ng7.1" />
