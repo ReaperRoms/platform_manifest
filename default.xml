@@ -580,8 +580,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <!-- Slim Additions -->
-  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="ng7.1" />
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="ng7.1" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.1" />
 
 </manifest>
