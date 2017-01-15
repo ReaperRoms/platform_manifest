@@ -100,7 +100,10 @@
   <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="7.1" />
   <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="7.1" >
          <copyfile src="tools/build-death.sh" dest="build-death.sh" />
-  </project>         
+  </project>
+  
+  <!-- Substratum Development -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />         
 
   <!-- Slim Repos -->
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="ng7.1" />
