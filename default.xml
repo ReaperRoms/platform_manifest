@@ -80,7 +80,8 @@
   <project path="packages/apps/Dialer" name="ReaperRoms/packages_apps_Dialer" remote="github" revision="7.1.1" />  
   <project path="packages/apps/PhoneCommon" name="ReaperRoms/packages_apps_PhoneCommon" remote="github" revision="7.1.1" />    
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="7.1.1" />
-  <project path="packages/apps/Stk" name="ReaperRoms/packages_apps_Stk" remote="github" revision="7.1.1" />  
+  <project path="packages/apps/Stk" name="ReaperRoms/packages_apps_Stk" remote="github" revision="7.1.1" />
+  <project path="packages/apps/ReaperSettings" name="ReaperRoms/packages_apps_ReaperSettings" remote="github" revision="7.1.1" />
   <project path="packages/apps/ReaperWallpapers" name="ReaperRoms/packages_apps_ReaperWallpapers" remote="github" revision="7.1.1" />
   <project path="packages/providers/ContactsProvider" name="ReaperRoms/packages_providers_ContactsProvider" remote="github" revision="7.1.1" />  
   <project path="packages/providers/MediaProvider" name="ReaperRoms/packages_providers_MediaProvider" remote="github" revision="7.1.1" />
