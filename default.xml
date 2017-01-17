@@ -11,14 +11,14 @@
 
    <remote name="ReaperRoms"
           fetch="https://github.com/ReaperRoms/"
-          revision="7.1" />
+          revision="7.1.1" />
 
   
    <remote name="slim"
            fetch="https://github.com/SlimRoms/" />
 
 
-   <default revision="refs/tags/android-7.1.0_r7"
+   <default revision="refs/tags/android-7.1.1_r13"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
