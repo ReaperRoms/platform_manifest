@@ -77,7 +77,8 @@
   <project path="packages/apps/CellBroadcastReceiver" name="ReaperRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="7.1.1" />
   <project path="packages/apps/Contacts" name="ReaperRoms/packages_apps_Contacts" remote="github" revision="7.1.1" />
   <project path="packages/apps/ContactsCommon" name="ReaperRoms/packages_apps_ContactsCommon" remote="github" revision="7.1.1" />
-  <project path="packages/apps/Dialer" name="ReaperRoms/packages_apps_Dialer" remote="github" revision="7.1.1" />  
+  <project path="packages/apps/Dialer" name="ReaperRoms/packages_apps_Dialer" remote="github" revision="7.1.1" />
+  <project path="packages/apps/OmniStyle" name="ReaperRoms/packages_apps_OmniStyle" remote="github" revision="7.1.1" />  
   <project path="packages/apps/PhoneCommon" name="ReaperRoms/packages_apps_PhoneCommon" remote="github" revision="7.1.1" />    
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="7.1.1" />
   <project path="packages/apps/Stk" name="ReaperRoms/packages_apps_Stk" remote="github" revision="7.1.1" />
