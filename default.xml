@@ -84,7 +84,8 @@
   <project path="packages/apps/Stk" name="ReaperRoms/packages_apps_Stk" remote="github" revision="7.1.1" />
   <project path="packages/apps/ReaperSettings" name="ReaperRoms/packages_apps_ReaperSettings" remote="github" revision="7.1.1" />
   <project path="packages/apps/ReaperWallpapers" name="ReaperRoms/packages_apps_ReaperWallpapers" remote="github" revision="7.1.1" />
-  <project path="packages/providers/ContactsProvider" name="ReaperRoms/packages_providers_ContactsProvider" remote="github" revision="7.1.1" />  
+  <project path="packages/providers/ContactsProvider" name="ReaperRoms/packages_providers_ContactsProvider" remote="github" revision="7.1.1" />
+  <project path="packages/providers/DownloadProvider" name="ReaperRoms/packages_providers_DownloadProvider" remote="github" revision="7.1.1" />
   <project path="packages/providers/MediaProvider" name="ReaperRoms/packages_providers_MediaProvider" remote="github" revision="7.1.1" />
   <project path="packages/providers/TelephonyProvider" name="ReaperRoms/packages_providers_TelephonyProvider" remote="github" revision="7.1.1" />    
   <project path="packages/services/Telecomm" name="ReaperRoms/packages_services_Telecomm" remote="github" revision="7.1.1" />
@@ -113,7 +114,6 @@
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="ng7.1" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="ng7.1" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="ng7.1" />
-  <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="ng7.1" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="ng7.1" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="ng7.1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="ng7.1" />
