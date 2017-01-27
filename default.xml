@@ -90,6 +90,7 @@
   <project path="packages/providers/TelephonyProvider" name="ReaperRoms/packages_providers_TelephonyProvider" remote="github" revision="7.1.1" />    
   <project path="packages/services/Telecomm" name="ReaperRoms/packages_services_Telecomm" remote="github" revision="7.1.1" />
   <project path="packages/services/Telephony" name="ReaperRoms/packages_services_Telephony" remote="github" revision="7.1.1" />
+  <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="7.1.1" />
   <project path="system/bt" name="ReaperRoms/system_bt" remote="github" revision="7.1.1" />
   <project path="system/core" name="ReaperRoms/system_core" remote="github" revision="7.1.1" />
   <project path="system/extras" name="ReaperRoms/system_extras" remote="github" revision="7.1.1" />
@@ -99,9 +100,10 @@
   <project path="system/security" name="ReaperRoms/system_security" remote="github" revision="7.1.1" />             
   <project path="system/sepolicy" name="ReaperRoms/system_sepolicy" remote="github" revision="7.1.1" />
   <project path="system/vold" name="ReaperRoms/system_vold" remote="github" revision="7.1.1" />    
-  <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="7.1.1" />
-  <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="7.1.1" />
-
+  <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="7.1.1" >
+          <copyfile src="tools/build-death.sh" dest="build-death.sh" />
+  </project>               
+  
   <!-- Substratum Development -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
