@@ -109,7 +109,7 @@
   </project>               
   
   <!-- Substratum Development -->
-  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
   <!-- Slim Repos -->
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="ng7.1" />
