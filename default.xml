@@ -93,6 +93,7 @@
   <project path="packages/providers/MediaProvider" name="ReaperRoms/packages_providers_MediaProvider" remote="github" revision="7.1.1" />
   <project path="packages/providers/TelephonyProvider" name="ReaperRoms/packages_providers_TelephonyProvider" remote="github" revision="7.1.1" />    
   <project path="packages/services/Telecomm" name="ReaperRoms/packages_services_Telecomm" remote="github" revision="7.1.1" />
+  <project path="packages/services/OmniJaws" name="ReaperRoms/packages_services_OmniJaws" remote="github" revision="7.1.1" />
   <project path="packages/services/Telephony" name="ReaperRoms/packages_services_Telephony" remote="github" revision="7.1.1" />
   <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="7.1.1" />
   <project path="system/bt" name="ReaperRoms/system_bt" remote="github" revision="7.1.1" />
