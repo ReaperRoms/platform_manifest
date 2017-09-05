@@ -6,7 +6,7 @@ To initialize your local repository using the tree, use this command:
 
 
 	
-repo init -u git://github.com/ReaperRoms/platform_manifest.git -b O
+repo init -u git://github.com/ReaperRoms/platform_manifest.git -b 7.1.2
 
 
 
