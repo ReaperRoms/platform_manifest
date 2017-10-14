@@ -30,7 +30,7 @@
   <!-- Reaper Repos -->
   <project path="art" name="ReaperRoms/android_art" remote="github" revision="O" />
   <project path="bionic" name="ReaperRoms/android_bionic" remote="github" revision="O" />
-  <project path="build" name="ReaperRoms/build" groups="pdk,tradefed" remote="github" revision="O" >
+  <project path="build/make" name="ReaperRoms/build_make" groups="pdk,tradefed" remote="github" revision="O" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>  
   <project path="bootable/recovery" name="ReaperRoms/bootable_recovery" remote="github" revision="O" />
