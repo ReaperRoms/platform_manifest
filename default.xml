@@ -34,7 +34,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>  
   <project path="bootable/recovery" name="ReaperRoms/bootable_recovery" remote="github" revision="O" />
-  <project path="build/kati" name="ReaperRoms/build_kati" groups="pdk,tradefed" remote="github" revision="O" />                                 
+  <project path="build/kati" name="ReaperRoms/build_kati" groups="pdk,tradefed" remote="github" revision="O" />
+  <project path="build/soong" name="ReaperRoms/build_soong" groups="pdk,tradefed" remote="github" revision="O" />                                 
   <project path="frameworks/base" name="ReaperRoms/frameworks_base" remote="github" revision="O" />
   <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="O" />   
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="O" />
