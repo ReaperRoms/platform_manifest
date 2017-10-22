@@ -37,9 +37,9 @@
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="O" />
   <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="O" />   
   <project path="system/core" name="ReaperRoms/system_core" groups="pdk" remote="github" revision="O" />
-  <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="O" >
-          <copyfile src="tools/build-death.sh" dest="build-death.sh" />
-  </project>               
+  <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="O" />
+          <!--copyfile src="tools/build-death.sh" dest="build-death.sh" />
+  </project-->               
   
   <!-- Substratum Development -->
   <!--project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" /-->
