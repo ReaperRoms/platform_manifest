@@ -41,6 +41,7 @@
   <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="O" />   
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="O" />
   <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="O" />   
+  <project path="system/core" name="ReaperRoms/system_core" groups="pdk" remote="github" revision="O" />
   <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="O" >
           <copyfile src="tools/build-death.sh" dest="build-death.sh" />
   </project>               
@@ -517,7 +518,6 @@
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" />
