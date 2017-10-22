@@ -32,10 +32,19 @@
   <project path="bionic" name="ReaperRoms/android_bionic" remote="github" revision="O" />
   <project path="build/make" name="ReaperRoms/build_make" groups="pdk,tradefed" remote="github" revision="O" >
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>  
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <project path="bootable/recovery" name="ReaperRoms/bootable_recovery" remote="github" revision="O" />
   <project path="build/kati" name="ReaperRoms/build_kati" groups="pdk,tradefed" remote="github" revision="O" />
-  <project path="build/soong" name="ReaperRoms/build_soong" groups="pdk,tradefed" remote="github" revision="O" />                                 
+  <project path="build/soong" name="ReaperRoms/build_soong" groups="pdk,tradefed" remote="github" revision="O" >                                 
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="frameworks/base" name="ReaperRoms/frameworks_base" remote="github" revision="O" />
   <project path="frameworks/native" name="ReaperRoms/frameworks_native" groups="pdk" remote="github" revision="O" />
   <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="O" />   
