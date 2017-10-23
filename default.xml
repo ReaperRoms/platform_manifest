@@ -36,6 +36,7 @@
   <project path="frameworks/opt/net/wifi" name="ReaperRoms/frameworks_opt_net_wifi" groups="pdk" remote="github" revision="O" />
   <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="O" />   
   <project path="packages/apps/Dialer" name="ReaperRoms/packages_apps_Dialer" groups="pdk-fs" remote="github" revision="O" />
+  <project path="packages/apps/Matlog" name="ReaperRoms/packages_apps_Matlog" remote="github" revision="O" />
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="O" />
   <project path="packages/inputmethods/LatinIME" name="ReaperRoms/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="O" />  
   <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="O" />   
