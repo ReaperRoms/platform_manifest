@@ -37,6 +37,7 @@
   <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="O" />   
   <project path="packages/apps/Dialer" name="ReaperRoms/packages_apps_Dialer" groups="pdk-fs" remote="github" revision="O" />
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="O" />
+  <project path="packages/inputmethods/LatinIME" name="ReaperRoms/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="O" />  
   <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="O" />   
   <project path="system/core" name="ReaperRoms/system_core" groups="pdk" remote="github" revision="O" />
   <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="O" />
@@ -423,7 +424,6 @@
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
