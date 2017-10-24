@@ -39,6 +39,7 @@
   <project path="packages/apps/Matlog" name="ReaperRoms/packages_apps_Matlog" remote="github" revision="O" />
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="O" />
   <project path="packages/inputmethods/LatinIME" name="ReaperRoms/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="O" />  
+  <project path="packages/services/Telephony" name="ReaperRoms/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O" />
   <project path="platform_manifest" name="ReaperRoms/platform_manifest" remote="github" revision="O" />   
   <project path="system/core" name="ReaperRoms/system_core" groups="pdk" remote="github" revision="O" />
   <project path="system/extras" name="ReaperRoms/system_extras" groups="pdk" remote="github" revision="O" />
@@ -461,7 +462,6 @@
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
