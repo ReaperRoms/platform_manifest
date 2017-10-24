@@ -36,6 +36,7 @@
   <project path="frameworks/opt/net/wifi" name="ReaperRoms/frameworks_opt_net_wifi" groups="pdk" remote="github" revision="O" />
   <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="O" />   
   <project path="packages/apps/Dialer" name="ReaperRoms/packages_apps_Dialer" groups="pdk-fs" remote="github" revision="O" />
+  <project path="packages/apps/DocumentsUI" name="ReaperRoms/packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O" />
   <project path="packages/apps/Matlog" name="ReaperRoms/packages_apps_Matlog" remote="github" revision="O" />
   <project path="packages/apps/PackageInstaller" name="ReaperRoms/packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O" />
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="O" />
@@ -409,7 +410,6 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
