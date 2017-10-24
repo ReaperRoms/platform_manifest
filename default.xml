@@ -37,6 +37,7 @@
   <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="O" />   
   <project path="packages/apps/Dialer" name="ReaperRoms/packages_apps_Dialer" groups="pdk-fs" remote="github" revision="O" />
   <project path="packages/apps/Matlog" name="ReaperRoms/packages_apps_Matlog" remote="github" revision="O" />
+  <project path="packages/apps/PackageInstaller" name="ReaperRoms/packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O" />
   <project path="packages/apps/Settings" name="ReaperRoms/packages_apps_Settings" remote="github" revision="O" />
   <project path="packages/inputmethods/LatinIME" name="ReaperRoms/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="O" />  
   <project path="packages/providers/DownloadProvider" name="ReaperRoms/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O" />
@@ -419,7 +420,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
