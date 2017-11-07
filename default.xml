@@ -53,10 +53,7 @@
   <project path="vendor/reaper" name="ReaperRoms/vendor_reaper" remote="github" revision="O" />
           <!--copyfile src="tools/build-death.sh" dest="build-death.sh" />
   </project-->               
-  
-  <!-- Substratum Development -->
-  <!--project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" /-->
- 
+   
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
