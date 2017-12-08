@@ -34,7 +34,10 @@
   <project path="frameworks/base" name="ReaperRoms/frameworks_base" remote="github" revision="O" />
   <project path="frameworks/native" name="ReaperRoms/frameworks_native" groups="pdk" remote="github" revision="O" />
   <project path="frameworks/opt/net/wifi" name="ReaperRoms/frameworks_opt_net_wifi" groups="pdk" remote="github" revision="O" />
-  <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="O" />   
+  <project path="frameworks/support" name="ReaperRoms/frameworks_support" remote="github" revision="O" />
+  <project path="hardware/qcom/audio" name="ReaperRoms/hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="O" />  
+  <project path="hardware/qcom/display" name="ReaperRoms/hardware_qcom_display" remote="github" revision="O" />
+  <project path="hardware/qcom/gps" name="ReaperRoms/hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="O" />     
   <project path="packages/apps/Dialer" name="ReaperRoms/packages_apps_Dialer" groups="pdk-fs" remote="github" revision="O" />
   <project path="packages/apps/DocumentsUI" name="ReaperRoms/packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O" />
   <project path="packages/apps/Matlog" name="ReaperRoms/packages_apps_Matlog" remote="github" revision="O" />
@@ -381,12 +384,9 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
